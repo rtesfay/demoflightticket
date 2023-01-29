@@ -10,9 +10,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person {
-    //private String firstname;
-    //private String lastname;
-    //private String dateOfBirth;
+    private String firstname;
+    private String lastname;
+    private String dateOfBirth;
     private  Adress adress;
 
 }

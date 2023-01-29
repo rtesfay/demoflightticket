@@ -10,8 +10,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Traveller extends Person {
-   // private String ID;
-    //private String creditCardInfo;
+   private String ID;
+    private String creditCardInfo;
     private  int checkedInBags;
     private  int carryonInBags;
 }
